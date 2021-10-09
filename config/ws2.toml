@@ -24,6 +24,18 @@ focus_new_windows = true
 
 [[keybind]]
 command = "Execute"
+value = "amixer -D pulse sset Master 5%+"
+modifier = ["modkey"]
+key = "F11"
+
+[[keybind]]
+command = "Execute"
+value = "amixer -D pulse sset Master 5%-"
+modifier = ["modkey"]
+key = "F10"
+
+[[keybind]]
+command = "Execute"
 value = "playerctl play-pause spotify"
 modifier = ["modkey"]
 key = "F7"
