@@ -29,19 +29,19 @@ key = "F10"
 
 [[keybind]]
 command = "Execute"
-value = "playerctl play-pause spotify"
+value = "playerctl play-pause --player=spotify"
 modifier = ["modkey"]
 key = "F7"
 
 [[keybind]]
 command = "Execute"
-value = "playerctl previous spotify"
+value = "playerctl previous --player=spotify"
 modifier = ["modkey"]
 key = "F6"
 
 [[keybind]]
 command = "Execute"
-value = "playerctl next spotify"
+value = "playerctl next --player=spotify"
 modifier = ["modkey"]
 key = "F8"
 
@@ -64,15 +64,15 @@ key = "f"
 
 [[keybind]]
 command = "Execute"
-value = "rofi -show drun -font 'DaddyTimeMono Nerd Font 12'"
+value = "rofi -show drun"
 modifier = ["modkey"]
 key = "d"
 
 [[keybind]]
 command = "Execute"
-value = "rofi -show window -font 'DaddyTimeMono Nerd Font 12'"
+value = "rofi -show window"
 modifier = ["modkey", "Control"]
-key = "d"
+key = "p"
 
 [[keybind]]
 command = "Execute"
